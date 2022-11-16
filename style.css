@@ -15,6 +15,7 @@ header{
     padding: 15px;
     background-color: blueviolet;
     margin: 10px;
+    width: 35%;
 }
 
 .right-header-container{
@@ -25,8 +26,24 @@ header{
 }
 
 main{
-    background-color: aliceblue;
+    background-color: rgb(101, 223, 90);
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding: 10px;
+}
+
+
+.left-main-container{
+    padding: 15px;
+    background-color: blueviolet;
+    margin: 10px;
+    width: 35%;
+}
+
+.right-main-container{
+    text-align: center;
+    width: 100%;
+    background-color: blue;
+    margin: 10px;
 }
